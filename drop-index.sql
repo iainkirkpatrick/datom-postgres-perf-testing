@@ -1,0 +1,4 @@
+DROP INDEX IF EXISTS idx_eavt;
+DROP INDEX IF EXISTS idx_aevt;
+DROP INDEX IF EXISTS idx_avet;
+DROP INDEX IF EXISTS idx_vaet;

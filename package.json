@@ -1,0 +1,19 @@
+{
+  "name": "datom-postgres-perf-testing",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "seed": "time psql -d datom_test -f ./seed.sql",
+    "drop-index": "psql -d datom_test -f ./drop-index.sql"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "postgres": "^3.4.1"
+  }
+}

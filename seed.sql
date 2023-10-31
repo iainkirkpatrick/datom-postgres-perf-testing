@@ -1,0 +1,1 @@
+\COPY datoms(e, a, v) FROM 'data.csv' WITH CSV;
